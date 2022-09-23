@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3201e370e44394f2481fe8dacaae7800, type: 3}
+  m_Name: Badges_Progress
+  m_EditorClassIdentifier: 
+  achievements:
+  - name: Complete Four Coins
+    HeaderText: Complete the full board within Practices Tournament
+    ID: 0
+    mainIcon: {fileID: 21300000, guid: 2cacdbcc2261243f78119d09c2489f53, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
+  - name: Complete Four Cash
+    HeaderText: Complete the full board within Cash Tournament
+    ID: 1
+    mainIcon: {fileID: 21300000, guid: 2cc7ec01e18d0451cbffc3afff89beff, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
+  - name: 'Complete Hint Button '
+    HeaderText: 'Complete the full board without hint button '
+    ID: 2
+    mainIcon: {fileID: 21300000, guid: 38790d0b7bae7401f9fb537ac74e78c4, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
+  - name: Complete Hint Cash
+    HeaderText: 'Complete the full board cash tournament without hint button '
+    ID: 3
+    mainIcon: {fileID: 21300000, guid: 11085dfe0a90043eb928998a74e23f5e, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
+  - name: Win 25 times
+    HeaderText: Win against your opponents 25 times
+    ID: 4
+    mainIcon: {fileID: 21300000, guid: df38cf16d5da44061ac89ce67772fe6a, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 25
+    unlocked: 0
+  - name: Win Cash Tournament 25 times
+    HeaderText: Win Cash Tournament against your opponent 25 times
+    ID: 8
+    mainIcon: {fileID: 21300000, guid: f874ecb7629b543f2a912df302029428, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 25
+    unlocked: 0
+  - name: 'Get 3 answers correctly '
+    HeaderText: Get 3 answers correctly to receive this achievement
+    ID: 12
+    mainIcon: {fileID: 21300000, guid: 59fabc44e11b547259861ba3e7e438ae, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 3
+    unlocked: 0
+  - name: Win 50 times
+    HeaderText: Win against your opponents 50 times
+    ID: 5
+    mainIcon: {fileID: 21300000, guid: 11892fa42293c4621aa0145405cd8c24, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 50
+    unlocked: 0
+  - name: Win Cash Tournament 50 times
+    HeaderText: Win Cash Tournament against your opponent 50 times
+    ID: 9
+    mainIcon: {fileID: 21300000, guid: 0af8dbeb96a0b4d29bf1c557a283f56d, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 50
+    unlocked: 0
+  - name: 'Get 6 answers correctly '
+    HeaderText: Get 6 answers correctly to receive this achievement
+    ID: 13
+    mainIcon: {fileID: 21300000, guid: 8c426ebc29851467f947dbcd05804cad, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 6
+    unlocked: 0
+  - name: Win 100 times
+    HeaderText: Win against your opponents 100 times
+    ID: 6
+    mainIcon: {fileID: 21300000, guid: 6c7464f7231994c9a86026bc595bf4f0, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 100
+    unlocked: 0
+  - name: Win Cash Tournament 100 times
+    HeaderText: Win Cash Tournament against your opponent 100 times
+    ID: 10
+    mainIcon: {fileID: 21300000, guid: 48a2930cbdaa24ab1a9bffdcbb645046, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 100
+    unlocked: 0
+  - name: 'Get 12 answers correctly '
+    HeaderText: Get 12 answers correctly to receive this achievement
+    ID: 14
+    mainIcon: {fileID: 21300000, guid: b8e4cb6052e714cdca24bbe1eb5c02b2, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 12
+    unlocked: 0
+  - name: Win 200 times
+    HeaderText: Win against your opponents 200 times
+    ID: 7
+    mainIcon: {fileID: 21300000, guid: ee85e061e460e4db8b1c2a2ffa3ccbc0, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 200
+    unlocked: 0
+  - name: Win Cash Tournament 200 times
+    HeaderText: Win Cash Tournament against your opponent 200 times
+    ID: 11
+    mainIcon: {fileID: 21300000, guid: 57c74248bc8ee47b29230d8e7f7d4d64, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 200
+    unlocked: 0
+  - name: 'Get 24 answers correctly '
+    HeaderText: Get 24 answers correctly to receive this achievement
+    ID: 15
+    mainIcon: {fileID: 21300000, guid: 4f349d87b2e0d4fd8b23bf8bea13c719, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 24
+    unlocked: 0
+  - name: Full Correct Practices
+    HeaderText: 'Complete the full board without making one mistake within Practices
+      Tournaments  '
+    ID: 16
+    mainIcon: {fileID: 21300000, guid: fe2a7eef21e0a42ea848e8efd9712ede, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
+  - name: Full Correct Cash
+    HeaderText: 'Complete the full board without making one mistake within Cash Tournaments '
+    ID: 17
+    mainIcon: {fileID: 21300000, guid: e17803d62c1b247138cd1c9417fd3f2b, type: 3}
+    _LockedAchivement: {r: 0.8078432, g: 0.050980397, b: 0.050980397, a: 1}
+    current: 0
+    goal: 1
+    unlocked: 0
